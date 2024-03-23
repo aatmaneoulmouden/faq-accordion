@@ -1,3 +1,30 @@
+/* font-face rules */
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/static/WorkSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/static/WorkSans-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/static/WorkSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+
+/* Tailwind CSS directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Custom CSS */
+* {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}

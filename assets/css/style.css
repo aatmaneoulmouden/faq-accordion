@@ -1,6 +1,32 @@
-/*
-! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
-*/
+/* font-face rules */
+
+@font-face {
+  font-family: 'Work Sans';
+
+  src: url('../fonts/static/WorkSans-Regular.woff2') format('woff2');
+
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+
+  src: url('../fonts/static/WorkSans-SemiBold.woff2') format('woff2');
+
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+
+  src: url('../fonts/static/WorkSans-Bold.woff2') format('woff2');
+
+  font-weight: 700;
+}
+
+/* Tailwind CSS directives */
+
+/* ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -2353,6 +2379,13 @@ video {
 
 .forced-color-adjust-none {
   forced-color-adjust: none;
+}
+
+/* Custom CSS */
+
+* {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
 }
 
 @media (min-width: 640px) {
