@@ -17,6 +17,7 @@
     font-weight: 700;
 }
 
+
 /* Tailwind CSS directives */
 @tailwind base;
 @tailwind components;
@@ -24,7 +25,8 @@
 
 
 /* Custom CSS */
-* {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
+@layer components {
+    * {
+        @apply font-work-sans;
+    }
 }
