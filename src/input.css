@@ -35,7 +35,7 @@
     }
 
     .question-wrapper {
-        @apply flex justify-between items-center pb-6;
+        @apply flex justify-between items-center gap-3;
     }
 
     .question {
@@ -43,6 +43,10 @@
     }
 
     .answer {
-        @apply text-grayish-purple text-sm;
+        @apply text-grayish-purple text-sm pt-0 h-0 overflow-y-hidden;
+    }
+
+    .answer.open {
+        @apply pt-6 h-auto transition ease-in-out delay-300;
     }
 }
