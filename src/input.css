@@ -35,11 +35,11 @@
     }
 
     .question-wrapper {
-        @apply flex justify-between items-center gap-3;
+        @apply flex justify-between items-center gap-3 cursor-pointer;
     }
 
     .question {
-        @apply text-dark-purple font-bold;
+        @apply text-dark-purple font-bold transition ease-in-out delay-75 hover:text-hover-pink;
     }
 
     .answer {

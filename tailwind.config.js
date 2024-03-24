@@ -13,6 +13,7 @@ module.exports = {
       "light-pink": "hsl(275, 100%, 97%)",
       "grayish-purple": "hsl(292, 16%, 49%)",
       "dark-purple": "hsl(292, 42%, 14%)",
+      "hover-pink": "#AD28EB",
     },
     boxShadow: {
       "main": "rgba(149, 157, 165, 0.2) 0px 8px 24px",
