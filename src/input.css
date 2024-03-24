@@ -29,4 +29,20 @@
     * {
         @apply font-work-sans;
     }
+
+    .question-answer:not(:last-child) {
+        @apply border-b border-light-pink pb-6 mb-6;
+    }
+
+    .question-wrapper {
+        @apply flex justify-between items-center pb-6;
+    }
+
+    .question {
+        @apply text-dark-purple font-bold;
+    }
+
+    .answer {
+        @apply text-grayish-purple text-sm;
+    }
 }

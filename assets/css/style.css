@@ -612,6 +612,34 @@ video {
   font-family: Work Sans, sans-serif;
 }
 
+.question-answer:not(:last-child) {
+  margin-bottom: 1.5rem;
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: hsl(275 100% 97% / var(--tw-border-opacity));
+  padding-bottom: 1.5rem;
+}
+
+.question-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+.question {
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: hsl(292 42% 14% / var(--tw-text-opacity));
+}
+
+.answer {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: hsl(292 16% 49% / var(--tw-text-opacity));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -742,6 +770,10 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .mt-2 {
