@@ -39,7 +39,7 @@
     }
 
     .question {
-        @apply text-dark-purple font-bold transition ease-in-out delay-75 hover:text-hover-pink lg:text-lg;
+        @apply text-dark-purple font-bold transition ease-in-out delay-75 lg:text-lg;
     }
 
     .icon.clicked {
