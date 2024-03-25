@@ -1950,11 +1950,7 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
-.bg-pattern-desktop {
-  background-image: url('/assets/images/background-pattern-desktop.svg');
-}
-
-.bg-pattern-mobile {
+.bg-\[url\(\'\/assets\/images\/background-pattern-mobile\.svg\'\)\] {
   background-image: url('/assets/images/background-pattern-mobile.svg');
 }
 
@@ -2636,7 +2632,7 @@ video {
     display: none;
   }
 
-  .lg\:bg-pattern-desktop {
+  .lg\:bg-\[url\(\'\/assets\/images\/background-pattern-desktop\.svg\'\)\] {
     background-image: url('/assets/images/background-pattern-desktop.svg');
   }
 
