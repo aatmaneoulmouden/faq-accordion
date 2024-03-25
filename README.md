@@ -29,7 +29,7 @@ Users are able to:
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://github.com/aatmaneoulmouden/faq-accordion/) -->
+- Solution URL: [View the solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-faq-accordion-tailwind-css-and-keyboard-navigation-o121kCS4k_)
 - Live Site URL: [Visit the website](https://aatmaneoulmouden.github.io/faq-accordion/)
 
 ## My process
