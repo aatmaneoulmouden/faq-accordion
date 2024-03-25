@@ -18,6 +18,10 @@ module.exports = {
     boxShadow: {
       "main": "rgba(149, 157, 165, 0.2) 0px 8px 24px",
     },
+    backgroundImage: {
+      "pattern-mobile": "url('/assets/images/background-pattern-mobile.svg')",
+      "pattern-desktop": "url('/assets/images/background-pattern-desktop.svg')",
+    },
     extend: {
       fontFamily: {
         "work-sans": ["Work Sans", "sans-serif"],

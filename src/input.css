@@ -39,11 +39,11 @@
     }
 
     .question {
-        @apply text-dark-purple font-bold transition ease-in-out delay-75 hover:text-hover-pink;
+        @apply text-dark-purple font-bold transition ease-in-out delay-75 hover:text-hover-pink lg:text-lg;
     }
 
     .answer {
-        @apply text-grayish-purple text-sm pt-0 h-0 overflow-y-hidden;
+        @apply text-grayish-purple text-sm pt-0 h-0 overflow-y-hidden lg:text-base;
     }
 
     .answer.open {
