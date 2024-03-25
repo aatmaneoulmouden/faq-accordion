@@ -42,6 +42,10 @@
         @apply text-dark-purple font-bold transition ease-in-out delay-75 hover:text-hover-pink lg:text-lg;
     }
 
+    .icon.clicked {
+        @apply transition ease-in-out rotate-180;
+    }
+
     .answer {
         @apply text-grayish-purple text-sm pt-0 h-0 overflow-y-hidden lg:text-base;
     }
