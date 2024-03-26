@@ -941,6 +941,10 @@ video {
   height: fit-content;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1950,8 +1954,8 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/assets\/images\/background-pattern-mobile\.svg\'\)\] {
-  background-image: url('/assets/images/background-pattern-mobile.svg');
+.bg-\[url\(\'\.\/assets\/images\/background-pattern-mobile\.svg\'\)\] {
+  background-image: url('./assets/images/background-pattern-mobile.svg');
 }
 
 .decoration-slice {
@@ -2628,12 +2632,16 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:hidden {
     display: none;
   }
 
-  .lg\:bg-\[url\(\'\/assets\/images\/background-pattern-desktop\.svg\'\)\] {
-    background-image: url('/assets/images/background-pattern-desktop.svg');
+  .lg\:bg-\[url\(\'\.\/assets\/images\/background-pattern-desktop\.svg\'\)\] {
+    background-image: url('./assets/images/background-pattern-desktop.svg');
   }
 
   .lg\:text-base {
